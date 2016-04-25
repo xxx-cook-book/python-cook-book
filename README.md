@@ -1,2 +1,2 @@
-# python-cook-book
+# Python Cook Book
 Python Cook Book, Record Practical Skills
