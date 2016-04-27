@@ -20,7 +20,7 @@ pip install isort
 
 * ALL
 
-  ```
+  ```shell
   isort -rc .
   ```
 
