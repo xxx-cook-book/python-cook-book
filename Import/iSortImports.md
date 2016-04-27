@@ -32,9 +32,13 @@ pip install isort
 * .isort.cfg
 
   ```
+  # See the menu of settings available here:
+  #   https://github.com/timothycrosley/isort/wiki/isort-Settings
+
   [settings]
   indent='    '
-  line_length=120
+  line_length=200
+  lines_after_imports=2
   skip=migrations
   ```
 
@@ -42,12 +46,20 @@ pip install isort
 
 * isort.sh
 
-  ```shell
-  #!/bin/bash
+  * Before isort==4.2.5
 
-  isort -rc --settings-path .isort.cfg .
-  ```
+    ```shell
+    #!/bin/bash
 
+    isort -rc .  # work
+    isort -rc -sp . .  # work
+    isort -rc -sp .isort.cfg .  # not work
+    isort -rc -sp ./.isort.cfg .  # work
+    ```
+
+  * If you really want to use command ``isort -rc -sp .isort.cfg .``
+
+    * https://github.com/timothycrosley/isort/pull/429/
 
 * exec
 
