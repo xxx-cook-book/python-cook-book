@@ -6,6 +6,10 @@
 * [Import](Import/README.md)
   * [Circular Imports](Import/CircularImports.md)
   * [iSort Imports](Import/iSortImports.md)
+* [Library](Library/README.md)
+  * [Software Version Comparison](Library/SoftwareVersionComparison.md)
+
+
 * String
 * [Style Guide](StyleGuide/README.md)
   * [PEP 8](StyleGuide/PEP8.md)
