@@ -42,6 +42,7 @@ Examples are based on `datetime.datetime(2013, 9, 30, 7, 6, 5)`
   | `%%`      | A literal '%' character.                 | `%`                        |
 
 * Several additional directives not required by the C89 standard are included for convenience. These parameters all correspond to ISO 8601 date values. These may not be available on all platforms when used with the [:meth:`strftime`](https://github.com/python/cpython/blob/6ebe774473c5db2365f618e50c3f0769fa87a537/Doc/library/datetime.rst#id384)method. The ISO 8601 year and ISO 8601 week directives are not interchangeable with the year and week number directives above. Calling [:meth:`strptime`](https://github.com/python/cpython/blob/6ebe774473c5db2365f618e50c3f0769fa87a537/Doc/library/datetime.rst#id386) with incomplete or ambiguous ISO 8601 directives will raise a [:exc:`ValueError`](https://github.com/python/cpython/blob/6ebe774473c5db2365f618e50c3f0769fa87a537/Doc/library/datetime.rst#id388).
+
   | Directive | Meaning                                  | Example |
   | --------- | ---------------------------------------- | ------- |
   | `%G`      | ISO 8601 year with century representing the year that contains the greater part of the ISO week (%V). | `2013`  |
