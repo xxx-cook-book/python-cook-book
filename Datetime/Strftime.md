@@ -48,6 +48,7 @@
     | `%G`      | ISO 8601 year with century representing the year that contains the greater part of the ISO week (%V). | `2013`  |
     | `%u`      | ISO 8601 weekday as a decimal number where 1 is Monday. | `1`     |
     | `%V`      | The ISO 8601 week number of the current year (01 to 53), where week 1 is the first week that has at least 4 days in the current year, and with Monday as the first day of the week. | `40`    |
+
 ## Usage
 
 * ``%Y-%m-%d %H:%M:%S``
