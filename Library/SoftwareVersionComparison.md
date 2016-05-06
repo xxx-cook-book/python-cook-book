@@ -34,6 +34,8 @@ pip install versions
 * InvalidVersionExpression
 
   ```python
+  # -*- coding: utf-8 -*-
+
   from versions import Version
   from versions.version import InvalidVersionExpression
 

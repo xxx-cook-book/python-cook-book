@@ -4,7 +4,7 @@
 
 * a.py
 
-  ```shell
+  ```python
   # -*- coding: utf-8 -*-
 
   from b import add
@@ -47,7 +47,7 @@
 ## Solution
 * a.py
 
-  ```shell
+  ```python
   # -*- coding: utf-8 -*-
 
   def minus(a, b):
