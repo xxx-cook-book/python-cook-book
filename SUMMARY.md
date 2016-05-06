@@ -19,10 +19,19 @@
 
 
 * [Python3](Python3/README.md)
+
+  * [Compatibility](Python3/Compatibility/README.md)
+    * [Future](Python3/Compatibility/Future.md)
+    * [Six](Python3/Compatibility/Six.md)
+
+
   * [Hug](Python3/Hug.md)
+
 * [String](String/README.md)
   * [% and format](String/percentsignandformat.md)
+
 * [Style Guide](StyleGuide/README.md)
   * [PEP 8](StyleGuide/PEP8.md)
+
 * [Version Management](VersionManagement/README.md)
   * [Pyenv](VersionManagement/Pyenv.md)
