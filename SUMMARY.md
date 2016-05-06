@@ -23,9 +23,8 @@
   * [Compatibility](Python3/Compatibility/README.md)
     * [Future](Python3/Compatibility/Future.md)
     * [Six](Python3/Compatibility/Six.md)
-
-
   * [Hug](Python3/Hug.md)
+
 
 * [String](String/README.md)
   * [% and format](String/percentsignandformat.md)
