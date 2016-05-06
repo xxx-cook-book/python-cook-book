@@ -21,7 +21,7 @@
 * [Python3](Python3/README.md)
   * [Hug](Python3/Hug.md)
 * [String](String/README.md)
-  * [% and format](String/%andformat.md)
+  * [% and format](String/percentsignandformat.md)
 * [Style Guide](StyleGuide/README.md)
   * [PEP 8](StyleGuide/PEP8.md)
 * [Version Management](VersionManagement/README.md)
