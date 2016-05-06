@@ -31,6 +31,18 @@ pip install versions
   ```
 
 
+* InvalidVersionExpression
+
+  ```python
+  from versions import Version
+  from versions.version import InvalidVersionExpression
+
+  try:
+      Version.parse('a.b.c')
+  except InvalidVersionExpression:
+      # do something
+      pass
+  ```
 
 ## References
 
