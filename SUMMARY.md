@@ -9,12 +9,15 @@
   * [Strftime](Datetime/Strftime.md)
 
 
+* [Generator](Generator/README.md)
+  * [yield](Generator/yield.md)
 * [Import](Import/README.md)
   * [Circular Imports](Import/CircularImports.md)
   * [iSort Imports](Import/iSortImports.md)
-
 * [Library](Library/README.md)
-  * [Software Version Comparison](Library/SoftwareVersionComparison.md)
+  * [3rd](Library/3rd/README.md)
+    * [Software Version Comparison](Library/3rd/SoftwareVersionComparison.md)
+  * [Standard](Library/Standard/README.md)
 
 
 * [Python3](Python3/README.md)
