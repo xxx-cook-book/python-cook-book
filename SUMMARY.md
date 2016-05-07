@@ -6,9 +6,8 @@
 
   * [ISO 8601](Datetime/ISO8601/README.md)
     * [Week](Datetime/ISO8601/Week.md)
+  * [Strftime](Datetime/Strftime.md)
 
-
-* [Strftime](Datetime/Strftime.md)
 
 * [Import](Import/README.md)
   * [Circular Imports](Import/CircularImports.md)
