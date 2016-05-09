@@ -49,6 +49,9 @@ Several additional directives not required by the C89 standard are included for 
 | `%u`      | ISO 8601 weekday as a decimal number where 1 is Monday. | `1`     |
 | `%V`      | The ISO 8601 week number of the current year (01 to 53), where week 1 is the first week that has at least 4 days in the current year, and with Monday as the first day of the week. | `40`    |
 
+* _New In Python 3.5_
+  * [https://bugs.python.org/issue12006](https://bugs.python.org/issue12006)
+
 ## Usage
 
 * ``%Y-%m-%d %H:%M:%S``
@@ -58,12 +61,12 @@ Several additional directives not required by the C89 standard are included for 
 * ``%U`` vs ``%W``
 
   ```python
-  In [86]: aaa = tc.string_to_local_datetime('2015-12-27 01:01:01')
+  In [86]: oneday = tc.string_to_local_datetime('2015-12-27 01:01:01')
 
-  In [87]: tc.datetime_to_string(aaa, format='%U')
+  In [87]: tc.datetime_to_string(oneday, format='%U')
   Out[87]: '52'
 
-  In [88]: tc.datetime_to_string(aaa, format='%W')
+  In [88]: tc.datetime_to_string(oneday, format='%W')
   Out[88]: '51'
   ```
 

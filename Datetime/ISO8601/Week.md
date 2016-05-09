@@ -65,7 +65,8 @@
   In [152]: tc.datetime_to_string(oneday, format='%V')
   Out[152]: '53'
   ```
-
+  * _New In Python 3.5_
+    * [https://bugs.python.org/issue12006](https://bugs.python.org/issue12006)
 ## Java
 
 ```java
