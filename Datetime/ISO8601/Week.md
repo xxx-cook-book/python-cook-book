@@ -105,6 +105,16 @@ int	the ISO week number.
 
 ## Objective-C
 
+```objective-c
+NSCalendar *calendar = [[NSCalendar alloc] initWithCalendarIdentifier:NSCalendarIdentifierISO8601];
+NSUInteger components = kCFCalendarUnitWeekOfYear | kCFCalendarUnitYearForWeekOfYear;
+NSDate *date = [NSDate date];
+NSDateComponents *dateComponents = [calendar components:components fromDate:date];
+NSLog(@"date: %@", date);
+NSLog(@"yearForWeekOfYear: %ld", dateComponents.yearForWeekOfYear);
+NSLog(@"weekday: %ld", dateComponents.weekday);
+```
+
 ## References
 
 [1] Gerry@StackOverflow, [How to get week number in Python?](http://stackoverflow.com/questions/2600775/how-to-get-week-number-in-python)
