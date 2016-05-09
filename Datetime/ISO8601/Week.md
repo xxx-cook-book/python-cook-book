@@ -84,6 +84,25 @@ calendar.get(Calendar.WEEK_OF_YEAR);
 
 * [What is a good, simple way to compute ISO 8601 week number?](http://stackoverflow.com/questions/147178/what-is-a-good-simple-way-to-compute-iso-8601-week-number)
 
+## Android
+
+```java
+public int getWeekNumber ()
+
+Added in API level 3
+Computes the week number according to ISO 8601. The current Time object must already be normalized because this method uses the yearDay and weekDay fields.
+
+In IS0 8601, weeks start on Monday. The first week of the year (week 1) is defined by ISO 8601 as the first week with four or more of its days in the starting year. Or equivalently, the week containing January 4. Or equivalently, the week with the year's first Thursday in it.
+
+The week number can be calculated by counting Thursdays. Week N contains the Nth Thursday of the year.
+
+Returns
+int	the ISO week number.
+```
+
+* [android/text/format/Time](http://developer.android.com/reference/android/text/format/Time.html)
+* [AndroidSDKSources/android-sdk-sources-for-api-level-3](https://github.com/AndroidSDKSources/android-sdk-sources-for-api-level-3/blob/caf0e61c078e35b8c65ab1c2994a6dd5541e8b1a/android/text/format/Time.java)
+
 ## Objective-C
 
 ## References
