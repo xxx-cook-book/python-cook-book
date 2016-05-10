@@ -13,6 +13,7 @@
   * [yield](Generator/yield.md)
 * [Import](Import/README.md)
   * [Circular Imports](Import/CircularImports.md)
+  * [From Parent Folder](Import/FromParentFolder.md)
   * [iSort Imports](Import/iSortImports.md)
 * [Library](Library/README.md)
   * [3rd](Library/3rd/README.md)
