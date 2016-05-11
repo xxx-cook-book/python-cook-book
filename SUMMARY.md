@@ -9,16 +9,30 @@
   * [Strftime](Datetime/Strftime.md)
 
 
+* [Debug](Debug/README.md)
+
+  * [ipdb](Debug/ipdb.md)
+
 * [Generator](Generator/README.md)
+
   * [yield](Generator/yield.md)
+
 * [Import](Import/README.md)
   * [Circular Imports](Import/CircularImports.md)
   * [From Parent Folder](Import/FromParentFolder.md)
   * [iSort Imports](Import/iSortImports.md)
+
+* [Lambda](Lambda/README.md)
+
 * [Library](Library/README.md)
+
   * [3rd](Library/3rd/README.md)
     * [Software Version Comparison](Library/3rd/SoftwareVersionComparison.md)
+
   * [Standard](Library/Standard/README.md)
+
+    * [itertools](Library/Standard/itertools.md)
+
 
 
 * [Python3](Python3/README.md)
