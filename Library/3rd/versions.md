@@ -1,6 +1,6 @@
-# Software Version Comparison
+# versions
 
-## versions
+## Introduction
 
 Python library for software version comparison
 

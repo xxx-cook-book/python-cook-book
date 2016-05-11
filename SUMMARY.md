@@ -27,7 +27,7 @@
 * [Library](Library/README.md)
 
   * [3rd](Library/3rd/README.md)
-    * [Software Version Comparison](Library/3rd/SoftwareVersionComparison.md)
+    * [versions — Software Version Comparison](Library/3rd/versions.md)
 
   * [Standard](Library/Standard/README.md)
 
