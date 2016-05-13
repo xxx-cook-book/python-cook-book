@@ -18,9 +18,8 @@
   * [itertools](Generator/itertools/README.md)
     * [groupby](Generator/itertools/groupby.md)
   * [more_itertools](Generator/more_itertools.md)
-
-
   * [yield](Generator/yield.md)
+
 
 * [Import](Import/README.md)
   * [Circular Imports](Import/CircularImports.md)
