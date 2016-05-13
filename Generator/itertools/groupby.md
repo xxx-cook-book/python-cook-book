@@ -1,5 +1,15 @@
 # groupby
 
+```python
+itertools.groupby(iterable[, key])
+```
+
+## Warning
+
+* sorted the data using the same key function 
+
+  The operation of `groupby()` is similar to the `uniq` filter in Unix. It generates a break or new group every time the value of the key function changes (which is why it is usually necessary to have **sorted the data using the same key function**). That behavior differs from SQL’s GROUP BY which aggregates common elements regardless of their input order.
+
 ## Example
 
 * Question
