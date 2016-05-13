@@ -45,9 +45,11 @@
 
 * [String](String/README.md)
   * [% and format](String/percentsignandformat.md)
-
 * [Style Guide](StyleGuide/README.md)
   * [PEP 8](StyleGuide/PEP8.md)
-
+* [Syntax](Syntax/README.md)
+  * [Dict Comprehensions](Syntax/DictComprehensions.md)
+  * [Generator Expressions](Syntax/GeneratorExpressions.md)
+  * [List Comprehensions](Syntax/ListComprehensions.md)
 * [Version Management](VersionManagement/README.md)
   * [Pyenv](VersionManagement/Pyenv.md)
