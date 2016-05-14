@@ -13,4 +13,4 @@ This can be used for safely evaluating strings containing Python values from unt
 
 ## References
 
-[1] Library@Python, [32.2. ast — Abstract Syntax Trees — ast.literal_eval(node_or_string)](https://docs.python.org/2/library/ast.html#ast.literal_eval)
+[1] Docs@Python, [32.2. ast — Abstract Syntax Trees — ast.literal_eval(node_or_string)](https://docs.python.org/2/library/ast.html#ast.literal_eval)
