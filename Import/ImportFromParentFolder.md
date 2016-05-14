@@ -1,4 +1,4 @@
-# From Parent Folder
+# Import From Parent Folder
 
 ## Search Path
 

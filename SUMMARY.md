@@ -23,7 +23,7 @@
 
 * [Import](Import/README.md)
   * [Circular Imports](Import/CircularImports.md)
-  * [From Parent Folder](Import/FromParentFolder.md)
+  * [Import From Parent Folder](Import/ImportFromParentFolder.md)
   * [iSort Imports](Import/iSortImports.md)
 
 * [Lambda](Lambda/README.md)
@@ -47,6 +47,8 @@
   * [Hug](Python3/Hug.md)
 
 
+* [Safety](Safety/README.md)
+  * [eval](Safety/eval.md)
 * [String](String/README.md)
   * [% and format](String/percentsignandformat.md)
 * [Style Guide](StyleGuide/README.md)
