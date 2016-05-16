@@ -24,6 +24,7 @@
 * [Import](Import/README.md)
   * [Circular Imports](Import/CircularImports.md)
   * [Import From Parent Folder](Import/ImportFromParentFolder.md)
+  * [absolute_import](Import/absolute_import.md)
   * [iSort Imports](Import/iSortImports.md)
 
 * [Lambda](Lambda/README.md)
@@ -42,6 +43,7 @@
 * [Python3](Python3/README.md)
 
   * [Compatibility](Python3/Compatibility/README.md)
+    * [\_\_future\_\_](Python3/Compatibility/__future__.md)
     * [Future](Python3/Compatibility/Future.md)
     * [Six](Python3/Compatibility/Six.md)
   * [Hug](Python3/Hug.md)
