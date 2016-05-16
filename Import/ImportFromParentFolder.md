@@ -81,11 +81,52 @@ say_hi()
 
 ## Solution Two
 
+Use 3rd Libray [path.py](https://github.com/jaraco/path.py)
+
 ```python
 $ cat function/bbb.py
-import path, sys
+import path
+import sys
+
 folder = path.path(__file__).abspath()
 sys.path.append(folder.parent.parent)
+
+from common.aaa import say_hi
+
+say_hi()
+```
+
+* Installation
+
+  ```shell
+  pip install path.py
+  ```
+
+* Exce in function dir
+
+  ```shell
+  $ python bbb.py
+  Python Cook Book
+  ```
+
+* Exec in importtests dir
+
+  ```shell
+  $ python function/bbb.py
+  Python Cook Book
+  ```
+
+## Solution Three
+
+Use Standard Libray ``os.path``
+
+```python
+$ cat function/bbb.py
+import os
+import sys
+
+root_folder = os.path.abspath(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+sys.path.append(root_folder)
 
 from common.aaa import say_hi
 
@@ -115,3 +156,5 @@ say_hi()
 ## References
 
 [1] Docs@Python, [6. Modules — 6.1.2. The Module Search Path](https://docs.python.org/2/tutorial/modules.html#the-module-search-path)
+
+[2] jaraco@Github, [path.py — "Path" object conveniently wrapping assorted file/path-related functionality](https://github.com/jaraco/path.py)
