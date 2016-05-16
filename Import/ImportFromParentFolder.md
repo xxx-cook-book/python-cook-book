@@ -50,7 +50,7 @@ importtests
   ImportError: No module named common.aaa
   ```
 
-## Solution One
+## Solution No.1
 
 ```python
 $ cat function/bbb.py
@@ -62,14 +62,14 @@ from common.aaa import say_hi
 say_hi()
 ```
 
-* Exce in function dir
+* Exce in ``function`` dir
 
   ```shell
   $ python bbb.py
   Python Cook Book
   ```
 
-* Exec in importtests dir
+* Exec in ``importtests`` dir
 
   ```shell
   $ python function/bbb.py
@@ -79,7 +79,7 @@ say_hi()
   ImportError: No module named common.aaa
   ```
 
-## Solution Two
+## Solution No.2
 
 Use 3rd Libray [path.py](https://github.com/jaraco/path.py)
 
@@ -102,21 +102,21 @@ say_hi()
   pip install path.py
   ```
 
-* Exce in function dir
+* Exce in ``function`` dir
 
   ```shell
   $ python bbb.py
   Python Cook Book
   ```
 
-* Exec in importtests dir
+* Exec in ``importtests`` dir
 
   ```shell
   $ python function/bbb.py
   Python Cook Book
   ```
 
-## Solution Three
+## Solution No.3
 
 Use Standard Libray ``os.path``
 
@@ -133,18 +133,41 @@ from common.aaa import say_hi
 say_hi()
 ```
 
-* Exce in function dir
+* Exce in ``function`` dir
 
   ```shell
   $ python bbb.py
   Python Cook Book
   ```
 
-* Exec in importtests dir
+* Exec in ``importtests`` dir
 
   ```shell
   $ python function/bbb.py
   Python Cook Book
+  ```
+
+## Solution No.4
+
+Use ``explicit relative import``
+
+```python
+$ cat function/bbb.py
+# from .. common.aaa import say_hi  # Or As Below
+from ..common.aaa import say_hi
+
+say_hi()
+```
+
+* Exec in ``importtests' parent`` dir
+
+  ```shell
+  $ python -m importtests.function.bbb
+  Python Cook Book
+
+  $ python -m importtests.function.bbb.py
+  Python Cook Book
+  /Users/xxx/venv/bin/python: No module named importtests.function.bbb.py
   ```
 
 ## APPEND or INSERT
