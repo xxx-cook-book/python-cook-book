@@ -3,10 +3,10 @@
 As described in  [PEP 8 -- Style Guide for Python Code](https://www.python.org/dev/peps/pep-0008/#imports)
 
 ```
-Implicit relative imports should never be used and have been removed in Python 3.
+Implicit relative imports should never be used and have been removed in Python 3.x
 ```
 
-And ``absolute_import`` was used to Forbidden ``implicit relative import``, Not Forbidden ``explicit relative import``
+And ``absolute_import`` was used to Forbidden ``implicit relative import``, Not Forbidden ``explicit relative import`` in Python 2.x
 
 ## Usage
 

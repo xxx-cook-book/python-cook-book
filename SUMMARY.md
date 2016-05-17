@@ -43,7 +43,7 @@
 * [Python3](Python3/README.md)
 
   * [Compatibility](Python3/Compatibility/README.md)
-    * [\_\_future\_\_](Python3/Compatibility/__future__.md)
+    * [__future__](Python3/Compatibility/__future__.md)
     * [Future](Python3/Compatibility/Future.md)
     * [Six](Python3/Compatibility/Six.md)
   * [Hug](Python3/Hug.md)
