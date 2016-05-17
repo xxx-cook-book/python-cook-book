@@ -71,4 +71,4 @@ Import ``bbb `` in ``ccc.py``
 
 ## References
 
-[1] PEPS@Python Developer's Guide, [PEP 8 -- Style Guide for Python Code](https://www.python.org/dev/peps/pep-0008/#imports)
+[1] PEPS@Python Developer's Guide, [PEP 8 -- Style Guide for Python Code — Imports](https://www.python.org/dev/peps/pep-0008/#imports)
