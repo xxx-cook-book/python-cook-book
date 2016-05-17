@@ -2,7 +2,7 @@
 
 String join is significantly faster then concatenation.
 
-Why? Strings are immutable and can't be changed in place. To alter one, a new representation needs to be created (a concatenation of the two)
+Why? Strings are immutable and can't be changed in place. To alter one, a new representation needs to be created (a concatenation of the two).
 
 ## References
 
