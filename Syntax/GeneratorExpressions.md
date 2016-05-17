@@ -6,7 +6,7 @@ _New In Python 2.4_
 
 ```python
 (expr for iter_var in iterable)
-(expr for iter_var in iterable if cond_expr) 
+(expr for iter_var in iterable if cond_expr)
 ```
 
 ## References
