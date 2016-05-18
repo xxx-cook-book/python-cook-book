@@ -29,3 +29,7 @@ In [11]: print b.tounicode()
 你好，Python
 ```
 
+## References
+
+[1] Docs@Python, [8.6. array — Efficient arrays of numeric values](https://docs.python.org/2/library/array.html)
+
