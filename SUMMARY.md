@@ -54,6 +54,7 @@
   * [Dict Comprehensions](Syntax/DictComprehensions.md)
   * [Generator Expressions](Syntax/GeneratorExpressions.md)
   * [List Comprehensions](Syntax/ListComprehensions.md)
+  * [Set Comprehensions](Syntax/SetComprehensions.md)
 
 * [Version Management](VersionManagement/README.md)
   * [Pyenv](VersionManagement/Pyenv.md)
