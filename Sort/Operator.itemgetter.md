@@ -6,9 +6,9 @@ _Changed in version 2.5: Added support for multiple item extraction._
 
 ## Operator.itemgetter
 
-`operator.``itemgetter`(*item*)
+`operator.itemgetter`(*item*)
 
-`operator.``itemgetter`(**items*)
+`operator.itemgetter`(**items*)
 
 Return a callable object that fetches *item* from its operand using the operand’s [`__getitem__()`](https://docs.python.org/2/library/operator.html#operator.__getitem__) method. If multiple items are specified, returns a tuple of lookup values. For example:
 
