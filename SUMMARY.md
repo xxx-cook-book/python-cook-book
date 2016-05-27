@@ -30,6 +30,7 @@
   * [3rd](Library/3rd/README.md)
     * [versions — Software Version Comparison](Library/3rd/versions.md)
   * [Standard](Library/Standard/README.md)
+    * [copy](Library/Standard/copy.md)
     * [itertools](Library/Standard/itertools.md)
 
 * [Python3](Python3/README.md)

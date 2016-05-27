@@ -2,7 +2,7 @@
 
 _New In Python 2.4_
 
-_Changed in version 2.5: Added support for multiple item extraction._
+_Changed In Python 2.5: Added support for multiple item extraction._
 
 ## Operator.itemgetter
 
