@@ -2,7 +2,7 @@
 
 _New In Python 2.7 and 3.0_
 
-## Example
+## *Example*
 
 * Question
 

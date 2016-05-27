@@ -15,7 +15,7 @@
 * [Generator](Generator/README.md)
   * [itertools](Generator/itertools/README.md)
     * [groupby](Generator/itertools/groupby.md)
-  * [more_itertools](Generator/more_itertools.md)
+  * [more_itertools — More routines for operating on iterables, beyond itertools](Generator/more_itertools.md)
   * [yield](Generator/yield.md)
 
 * [Import](Import/README.md)
@@ -30,7 +30,8 @@
   * [3rd](Library/3rd/README.md)
     * [versions — Software Version Comparison](Library/3rd/versions.md)
   * [Standard](Library/Standard/README.md)
-    * [copy](Library/Standard/copy.md)
+    * [collections — High-performance container datatypes](Library/Standard/collections.md)
+    * [copy — Shallow and deep copy operations](Library/Standard/copy.md)
     * [itertools](Library/Standard/itertools.md)
 
 * [Python3](Python3/README.md)
@@ -62,4 +63,4 @@
   * [Set Comprehensions](Syntax/SetComprehensions.md)
 
 * [Version Management](VersionManagement/README.md)
-  * [Pyenv](VersionManagement/Pyenv.md)
+  * [Pyenv — Simple Python version management](VersionManagement/Pyenv.md)
