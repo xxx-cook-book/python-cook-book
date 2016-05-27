@@ -42,6 +42,10 @@
 * [Safety](Safety/README.md)
   * [eval](Safety/eval.md)
 
+* [Sort](Sort/README.md)
+  * [Lambda](Sort/Lambda.md)
+  * [Operator.itemgetter](Sort/Operator.itemgetter.md)
+
 * [String](String/README.md)
   * [Modify Characters In String](String/ModifyCharactersInString.md)
   * [+ vs join](String/plusvsjoin.md)
