@@ -9,6 +9,7 @@
   * [Strftime](Datetime/Strftime.md)
 * [Debug](Debug/README.md)
   * [ipdb](Debug/ipdb.md)
+* [Decimal](Decimal/README.md)
 * [File](File/README.md)
   * [Create Huge File](File/CreateHugeFile.md)
   * CSV
@@ -36,7 +37,14 @@
     * [argparse — Parser for command-line options, arguments and sub-commands](Library/Standard/argparse.md)
     * [collections — High-performance container datatypes](Library/Standard/collections.md)
     * [copy — Shallow and deep copy operations](Library/Standard/copy.md)
-    * [itertools](Library/Standard/itertools.md)
+    * [functools — Higher-order functions and operations on callable objects](Library/Standard/functools.md)
+    * [itertools — Functions creating iterators for efficient looping](Library/Standard/itertools.md)
+    * [operator — Standard operators as functions](Library/Standard/operator.md)
+* [Magic Method](MagicMethod/README.md)
+  * [Construction and Initialization](MagicMethod/ConstructionandInitialization/README.md)
+    * [__new__/__init__/__del__](MagicMethod/ConstructionandInitialization/new_init_del.md)
+
+
 * [Python3](Python3/README.md)
   * [Compatibility](Python3/Compatibility/README.md)
     * [__future__](Python3/Compatibility/__future__.md)
