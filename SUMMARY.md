@@ -42,12 +42,12 @@
     * [operator — Standard operators as functions](Library/Standard/operator.md)
 * [Magic Method](MagicMethod/README.md)
   * [Construction and Initialization](MagicMethod/ConstructionandInitialization/README.md)
-    * [__new__/__init__/__del__](MagicMethod/ConstructionandInitialization/new_init_del.md)
+    * [``__new__``/``__init__``/``__del__``](MagicMethod/ConstructionandInitialization/__new__init__del__.md)
 
 
 * [Python3](Python3/README.md)
   * [Compatibility](Python3/Compatibility/README.md)
-    * [__future__](Python3/Compatibility/__future__.md)
+    * [``__future__``](Python3/Compatibility/__future__.md)
     * [Future](Python3/Compatibility/Future.md)
     * [Six](Python3/Compatibility/Six.md)
   * [Hug](Python3/Hug.md)
