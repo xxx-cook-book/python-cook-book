@@ -43,8 +43,6 @@
 * [Magic Method](MagicMethod/README.md)
   * [Construction and Initialization](MagicMethod/ConstructionandInitialization/README.md)
     * [``__new__``/``__init__``/``__del__``](MagicMethod/ConstructionandInitialization/__new__init__del__.md)
-
-
 * [Python3](Python3/README.md)
   * [Compatibility](Python3/Compatibility/README.md)
     * [``__future__``](Python3/Compatibility/__future__.md)
