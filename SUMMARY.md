@@ -21,6 +21,7 @@
     * [groupby](Generator/itertools/groupby.md)
   * [more_itertools — More routines for operating on iterables, beyond itertools](Generator/more_itertools.md)
   * [yield](Generator/yield.md)
+* [Image](Image/README.md)
 * [Import](Import/README.md)
   * [Circular Imports](Import/CircularImports.md)
   * [Import From Parent Folder](Import/ImportFromParentFolder.md)
