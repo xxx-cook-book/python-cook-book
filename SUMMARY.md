@@ -12,6 +12,8 @@
   * [Decimal](DataTypes/Decimal/README.md)
   * [String](DataTypes/String/README.md)
     * [Modify Characters In String](DataTypes/String/ModifyCharactersInString.md)
+    * [Remove Whitespace](DataTypes/String/RemoveWhitespace.md)
+    * [Split Every N Character](DataTypes/String/SplitEveryNCharacter.md)
     * [+ vs join](DataTypes/String/plusvsjoin.md)
     * [% vs format](DataTypes/String/percentsignvsformat.md)
 * [Debug](Debug/README.md)
