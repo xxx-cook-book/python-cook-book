@@ -3,6 +3,9 @@
 * [Introduction](README.md)
 * [Book](Book/README.md)
 * [C](C/README.md)
+* [Class](Class/README.md)
+  * [MetaClass](Class/MetaClass.md)
+  * MRO
 * [Data Types](DataTypes/README.md)
   * [Array](DataTypes/Array/README.md)
   * [Datetime](DataTypes/Datetime/README.md)
@@ -69,6 +72,8 @@
   * [eval](Safety/eval.md)
 * [Serialization](Serialization/README.md)
   * [JSON](Serialization/JSON.md)
+* [Socket](Socket/README.md)
+  * [socket — Low-level networking interface](Socket/Socket.md)
 * [Sort](Sort/README.md)
   * [Lambda](Sort/Lambda.md)
   * [Operator.itemgetter](Sort/Operator.itemgetter.md)
