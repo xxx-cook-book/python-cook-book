@@ -2,7 +2,6 @@
 
 * [Introduction](README.md)
 * [Book](Book/README.md)
-* [C](C/README.md)
 * [Class](Class/README.md)
   * [MetaClass](Class/meta-class.md)
   * MRO
@@ -24,6 +23,11 @@
 * [Descriptor](Descriptor/README.md)
   * [``__get__``/``__set__``/``__delete__``](Descriptor/__get__-__set__-__delete__.md)
   * [Property](Descriptor/Property.md)
+* [Extension](Extension/README.md)
+  * [C](Extension/C/README.md)
+    * CTypes
+    * SWIG
+    * [Python/C API](Extension/C/python-c-api.md)
 * [File](File/README.md)
   * [Create Huge File](File/create-huge-file.md)
   * CSV

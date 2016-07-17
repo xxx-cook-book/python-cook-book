@@ -9,16 +9,42 @@
   ```python
   class Hello(object):
       def __init__(self):
-          pass
+          self.meta = 110
+          print self.foo
+          print self.bar()
+      
+      @property
+      def foo(self):
+          return self.meta
+      
+      def bar(self, plus=1):
+          return self.meta + 1
+      
+  hello = Hello()
+  # 110
+  # 111
   ```
 
 * type
 
   ```python
-  def _init__(self):
-      pass
+  def __init__(self):
+      self.meta = 110
+      print self.foo
+      print self.bar()
+      
+  @property
+  def foo(self):
+      return self.meta
 
-  type('Hello', (object, ), dict(__init__=__init__))
+  def bar(self, plus=1):
+      return self.meta + 1
+
+  Hello = type('Hello', (object, ), dict(__init__=__init__, foo=foo, bar=bar))
+
+  hello = Hello()
+  # 110
+  # 111
   ```
 
 
