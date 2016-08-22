@@ -51,37 +51,37 @@
     *  ``Ubuntu 12.04.5 LTS`` raise error
 
        ```shell
-             ➜  ~ gcc demo.c -I /usr/include/python2.7 -shared -o demo.so
-             /usr/bin/ld: /tmp/cceeXldr.o: relocation R_X86_64_32 against `.rodata' can not be used when making a shared object; recompile with -fPIC
-             /tmp/cceeXldr.o: could not read symbols: Bad value
-             collect2: ld returned 1 exit status
+       $ gcc demo.c -I /usr/include/python2.7 -shared -o demo.so
+       /usr/bin/ld: /tmp/cceeXldr.o: relocation R_X86_64_32 against `.rodata' can not be used when making a shared object; recompile with -fPIC
+       /tmp/cceeXldr.o: could not read symbols: Bad value
+       collect2: ld returned 1 exit status
        ```
        *  Recompile with ``-fPIC`` works
 
           ```shell
-                   gcc demo.c -I /usr/include/python2.6 -shared -fPIC -o demo.so
+          gcc demo.c -I /usr/include/python2.6 -shared -fPIC -o demo.so
           ```
 
     *  ``Mac OS X`` raise error
 
        ```shell
-             $ gcc demo.c -I /usr/include/python2.7 -shared -o demo.so
-             Undefined symbols for architecture x86_64:
-               "_PyArg_ParseTuple", referenced from:
-                   _W_add in demo-00439c.o
-               "_Py_BuildValue", referenced from:
-                   _W_add in demo-00439c.o
-               "_Py_InitModule4_64", referenced from:
-                   _initdemo in demo-00439c.o
-             ld: symbol(s) not found for architecture x86_64
-             clang: error: linker command failed with exit code 1 (use -v to see invocation)
+        $ gcc demo.c -I /usr/include/python2.7 -shared -o demo.so
+        Undefined symbols for architecture x86_64:
+          "_PyArg_ParseTuple", referenced from:
+              _W_add in demo-00439c.o
+          "_Py_BuildValue", referenced from:
+              _W_add in demo-00439c.o
+          "_Py_InitModule4_64", referenced from:
+              _initdemo in demo-00439c.o
+        ld: symbol(s) not found for architecture x86_64
+        clang: error: linker command failed with exit code 1 (use -v to see invocation)
        ```
 
 * Tips
   * if note off main function
 
     ```shell
-    ➜  ~ gcc demo.c -I /usr/include/python2.7 -shared -fPIC -o demo.so
+    $ gcc demo.c -I /usr/include/python2.7 -shared -fPIC -o demo.so
     demo.c: In function ‘main’:
     demo.c:6:5: warning: incompatible implicit declaration of built-in function ‘printf’ [enabled by default]
     ```
