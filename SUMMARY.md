@@ -45,6 +45,7 @@
 * [Function](Function/README.md)
   * [Built-in](Function/Built-in/README.md)
     * [next](Function/Built-in/next.md)
+    * [setattr/getattr/hasattr](Function/Built-in/setattr-getattr-hasattr.md)
 * [Generator](Generator/README.md)
   * [itertools](Generator/itertools/README.md)
     * [groupby](Generator/itertools/groupby.md)
