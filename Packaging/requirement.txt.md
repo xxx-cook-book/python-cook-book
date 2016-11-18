@@ -3,7 +3,7 @@
 ## Create
 
 ```shell
-pip freeze | sort > requirement.txt
+pip freeze | sort > requirement.txt  # alias sort='LC_ALL=C sort'
 pip freeze | LC_ALL=C sort > requirement.txt
 ```
 
