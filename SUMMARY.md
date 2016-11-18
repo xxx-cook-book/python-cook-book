@@ -84,7 +84,7 @@
     * [``__new__``/``__init__``/``__del__``](MagicMethod/ConstructionandInitialization/__new__-__init__-__del__.md)
 * [Packaging](Packaging/README.md)
   * [Binary Eggs](Packaging/binary-eggs.md)
-  * Upload PyPI
+  * [Upload PyPI](Packaging/upload-pypi.md)
 * [Python3](Python3/README.md)
   * await/async
   * [Compatibility](Python3/Compatibility/README.md)

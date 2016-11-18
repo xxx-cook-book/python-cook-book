@@ -18,7 +18,6 @@
   2 directories, 7 files
   ```
 
-
 * Setup.py
 
   ```python
@@ -72,8 +71,7 @@
 
     os.path.abspath(__file__)
     ```
-    ​ ``python setup.py install`` have ``.egg``，also have source codes.
-
+     ``python setup.py install`` have ``.egg``，also have source codes.
 
 * See [django-xxx/django-logit](https://github.com/django-xxx/django-logit)
 
