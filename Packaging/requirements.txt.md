@@ -1,10 +1,10 @@
-# Requirement.txt
+# Requirements.txt
 
 ## Create
 
 ```shell
-pip freeze | sort > requirement.txt  # alias sort='LC_ALL=C sort'
-pip freeze | LC_ALL=C sort > requirement.txt
+pip freeze | sort > requirements.txt  # alias sort='LC_ALL=C sort'
+pip freeze | LC_ALL=C sort > requirements.txt
 ```
 
 ## Sort
