@@ -4,7 +4,8 @@
 * [Book](Book/README.md)
 * [Class](Class/README.md)
   * [MetaClass](Class/meta-class.md)
-  * MRO
+  * [Method Resolution Order(MRO)](Class/method_resolution_order.md)
+  * Super
 * [Codec](Codec/README.md)
 * [Data Types](DataTypes/README.md)
   * [Array](DataTypes/Array/README.md)
