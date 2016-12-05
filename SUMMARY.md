@@ -120,6 +120,8 @@
 
 # Appendix
 
+* [PyPI](PyPI/README.md)
+  * [Source](PyPI/source.md)
 * [Why Ever](WhyEver/README.md)
   * [Single Element Tuple](WhyEver/single-element-tuple.md)
 * [Idiom](Idiom/README.md)
