@@ -113,6 +113,7 @@
   * [Set Comprehensions](Syntax/set-comprehensions.md)
 * [Test](Test/README.md)
   * docstring
+  * nose2
   * pytest
   * unittest
 * [Version Management](VersionManagement/README.md)
