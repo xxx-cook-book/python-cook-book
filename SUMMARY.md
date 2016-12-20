@@ -7,6 +7,15 @@
   * [Method Resolution Order(MRO)](Class/method_resolution_order.md)
   * Super
 * [Codec](Codec/README.md)
+* Command-line
+  * argparse
+  * [click — Click is a command line library for Python](http://click.pocoo.org/)
+  * [docopt — Command-line interface description language](http://docopt.org/)
+  * getopt
+  * sys.argv
+* [Compile](Compile/README.md)
+  * Pyc
+  * Pyo
 * [Data Types](DataTypes/README.md)
   * [Array](DataTypes/Array/README.md)
   * [Datetime](DataTypes/Datetime/README.md)
@@ -31,6 +40,7 @@
 * [Extension](Extension/README.md)
   * [C](Extension/C/README.md)
     * CTypes
+    * Cython
     * SWIG
     * [Python/C API](Extension/C/python-c-api.md)
 * [File](File/README.md)

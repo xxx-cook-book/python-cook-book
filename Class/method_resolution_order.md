@@ -237,7 +237,6 @@
     Out[10]: 2
     ```
 
-
 ## Order
 
 ```python
