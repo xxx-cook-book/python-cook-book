@@ -15,6 +15,7 @@
   * sys.argv
 * [Compile](Compile/README.md)
   * Pyc
+  * Pyd
   * Pyo
 * [Data Types](DataTypes/README.md)
   * [Array](DataTypes/Array/README.md)
@@ -66,6 +67,7 @@
   * Base64
   * WebP
 * [Import](Import/README.md)
+  * [``__all__``](Import/all.md)
   * [absolute_import](Import/absolute_import.md)
   * [Circular Imports](Import/circular-imports.md)
   * [Import From Parent Folder](Import/import-from-parent-folder.md)
