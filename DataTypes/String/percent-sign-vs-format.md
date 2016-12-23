@@ -67,3 +67,5 @@ Out[5]: u'test\u6d4b\u8bd5'
 
 [1] PyFormat@TT4IT, [PyFormat —— Using % and .format() for great good!](http://tt4it.com/resources/discuss/2074/)
 
+[2] Docs@Python, [6.1. string — Common string operations —— 6.1.3. Format String Syntax](https://docs.python.org/3/library/string.html#grammar-token-conversion)
+
