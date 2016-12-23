@@ -64,8 +64,16 @@
   * [more_itertools — More routines for operating on iterables, beyond itertools](Generator/more_itertools.md)
   * [yield](Generator/yield.md)
 * [Image](Image/README.md)
-  * Base64
-  * WebP
+  * Data
+    * Binary
+    * Base64
+  * Format
+    * WebP
+  * Function
+    * Compression
+    * Cropper
+    * Thumbnail
+    * Verification Code
 * [Import](Import/README.md)
   * [``__all__``](Import/all.md)
   * [absolute_import](Import/absolute_import.md)
