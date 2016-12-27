@@ -95,6 +95,7 @@
     * [copy — Shallow and deep copy operations](Library/Standard/copy.md)
     * [functools — Higher-order functions and operations on callable objects](Library/Standard/functools.md)
     * [itertools — Functions creating iterators for efficient looping](Library/Standard/itertools.md)
+    * [json — JSON encoder and decoder](Library/Standard/json.md)
     * os.path — Common pathname manipulations
     * [operator — Standard operators as functions](Library/Standard/operator.md)
     * [shutil — High-level file operations](Library/Standard/shutil.md)
