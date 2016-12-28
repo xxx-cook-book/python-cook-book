@@ -26,6 +26,7 @@
   * [Decimal](DataTypes/Decimal/README.md)
   * [List](DataTypes/List/README.md)
     * [Repeat Elements](DataTypes/List/repeat-elements.md)
+    * [Count Not None](DataTypes/List/count-not-none.md)
   * [String](DataTypes/String/README.md)
     * [Modify Characters In String](DataTypes/String/modify-characters-in-string.md)
     * [Padding](DataTypes/String/padding.md)
@@ -108,6 +109,7 @@
   * [Binary Eggs](Packaging/binary-eggs.md)
   * [Requirements.txt](Packaging/requirements.txt.md)
   * [Upload PyPI](Packaging/upload-pypi.md)
+    * reStructuredText
 * [Python3](Python3/README.md)
   * await/async
   * [Compatibility](Python3/Compatibility/README.md)
