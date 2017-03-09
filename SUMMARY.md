@@ -23,6 +23,10 @@
     * [ISO 8601](DataTypes/Datetime/ISO8601/README.md)
       * [Week](DataTypes/Datetime/ISO8601/Week.md)
     * [Strftime](DataTypes/Datetime/Strftime.md)
+    * VS.
+      * ``aware`` vs. ``navie``
+      * ``CST`` vs. ``LMT``
+      * ``STD`` vs. ``DST``
   * [Decimal](DataTypes/Decimal/README.md)
   * [List](DataTypes/List/README.md)
     * [Repeat Elements](DataTypes/List/repeat-elements.md)
@@ -59,9 +63,12 @@
   * [Built-in](Function/Built-in/README.md)
     * [next](Function/Built-in/next.md)
     * [setattr/getattr/hasattr](Function/Built-in/setattr-getattr-hasattr.md)
+    * [zip](Function/Built-in/zip.md)
 * [Generator](Generator/README.md)
   * [itertools](Generator/itertools/README.md)
     * [groupby](Generator/itertools/groupby.md)
+    * permutations
+    * combinations
   * [more_itertools — More routines for operating on iterables, beyond itertools](Generator/more_itertools.md)
   * [yield](Generator/yield.md)
 * [Image](Image/README.md)
