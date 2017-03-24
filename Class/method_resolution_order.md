@@ -243,37 +243,37 @@
 class A(object):  
     def __init__(self):  
         super(A, self).__init__()  
-        print "A!"  
+        print 'A!'
   
 class B(object):  
     def __init__(self):  
         super(B, self).__init__()  
-        print "B!"  
+        print 'B!'
   
 class AB(A, B):  
     def __init__(self):  
         super(AB, self).__init__()  
-        print "AB!"  
+        print 'AB!'
   
 class C(object):  
     def __init__(self):  
         super(C,  self).__init__()  
-        print "C!"  
+        print 'C!'
   
 class D(object):  
     def __init__(self):  
         super(D, self).__init__()  
-        print "D!"  
+        print 'D!'
   
 class CD(C, D):  
     def __init__(self):  
         super(CD, self).__init__()  
-        print "CD!"  
+        print 'CD!'
   
 class ABCD(AB, CD):  
     def __init__(self):  
         super(ABCD, self).__init__()  
-        print "ABCD!"  
+        print 'ABCD!'
   
 ABCD()
 
