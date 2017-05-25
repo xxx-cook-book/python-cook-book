@@ -28,6 +28,7 @@
       * ``CST`` vs. ``LMT``
       * ``STD`` vs. ``DST``
   * [Decimal](DataTypes/Decimal/README.md)
+  * [Int](DataTypes/Int/README.md)
   * [List](DataTypes/List/README.md)
     * [Repeat Elements](DataTypes/List/repeat-elements.md)
     * [Count Not None](DataTypes/List/count-not-none.md)
@@ -36,8 +37,8 @@
     * [Padding](DataTypes/String/padding.md)
     * [Remove Whitespace](DataTypes/String/remove-white-space.md)
     * [Split Every N Character](DataTypes/String/split-every-n-character.md)
-    * [+ vs join](DataTypes/String/plus-vs-join.md)
-    * [% vs format](DataTypes/String/percent-sign-vs-format.md)
+    * [``+`` vs. ``join``](DataTypes/String/plus-vs-join.md)
+    * [``%`` vs. ``format``](DataTypes/String/percent-sign-vs-format.md)
 * [Debug](Debug/README.md)
   * [ipdb](Debug/ipdb.md)
 * [Descriptor](Descriptor/README.md)
