@@ -31,6 +31,12 @@ KeyError                                  Traceback (most recent call last)
 ----> 1 '{_}{one}{two}'.format(one=1, two=2)
 KeyError: '_'
 ```
+* ``'{} {}'`` vs. ``'{0} {1}'``
+  * [Str.format() for Python 2.6 gives error where 2.7 does not](https://stackoverflow.com/questions/19668395/str-format-for-python-2-6-gives-error-where-2-7-does-not)
+  ```
+  Changed in version 2.7:
+    The positional argument specifiers can be omitted, so '{} {}' is equivalent to '{0} {1}'.
+  ```
 
 ## %s
 
