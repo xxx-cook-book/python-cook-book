@@ -147,8 +147,12 @@
   * nose2
   * pytest
   * unittest
-* [Version Management](VersionManagement/README.md)
-  * [Pyenv — Simple Python version management](VersionManagement/Pyenv.md)
+* [Workflow](Workflow/README.md)
+  * [Pyenv — Simple Python version management](Workflow/Pyenv.md)
+  * Pip — The PyPA recommended tool for installing Python packages
+    * Pipfile — `Pipfile` and its sister `Pipfile.lock` are a replacement for the existing standard [pip](https://pip.pypa.io/en/stable/)'s `requirements.txt` file.
+  * Virtualenv — Virtual Python Environment builder
+  * [Pipenv — Sacred Marriage of Pipfile, Pip, & Virtualenv](Workflow/Pipenv.md)
 
 # Appendix
 

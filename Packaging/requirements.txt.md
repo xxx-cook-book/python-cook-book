@@ -21,3 +21,5 @@ pip install -r requirements.txt
 ```
 
 ## References
+
+[1] KENNETH REITZ, [A Better Pip Workflow™](https://www.kennethreitz.org/essays/a-better-pip-workflow)
