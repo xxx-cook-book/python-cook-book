@@ -143,11 +143,11 @@
   * [List Comprehensions](Syntax/list-comprehensions.md)
   * [Set Comprehensions](Syntax/set-comprehensions.md)
 * [Test](Test/README.md)
-  * docstring
-  * nose2
-  * pytest
-  * unittest
-  * tox
+  * Docstring
+  * Nose2
+  * Pytest
+  * [Unittest](Test/unittest.md)
+  * Tox
 * [Workflow](Workflow/README.md)
   * [Pyenv — Simple Python version management](Workflow/Pyenv.md)
   * Pip — The PyPA recommended tool for installing Python packages
