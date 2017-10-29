@@ -147,6 +147,7 @@
   * nose2
   * pytest
   * unittest
+  * tox
 * [Workflow](Workflow/README.md)
   * [Pyenv — Simple Python version management](Workflow/Pyenv.md)
   * Pip — The PyPA recommended tool for installing Python packages
